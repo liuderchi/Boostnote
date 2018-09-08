@@ -18,6 +18,7 @@ const TodoListPercentage = ({
     <div styleName='progressBar' style={{width: `${percentageOfTodo}%`}}>
       <div styleName='progressBarInner'>
         <p styleName='percentageText'>{percentageOfTodo}%</p>
+        {/* TODO fix it's css */}
       </div>
     </div>
   </div>

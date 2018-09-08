@@ -65,6 +65,7 @@ function startElectron () {
     })
 }
 
+// NOTE: pack js, start dev server then start electron
 startServer()
   .then(() => {
     startElectron()
